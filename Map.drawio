@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2021-03-26T05:55:55.587Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" version="14.4.8" etag="nYZYOplOlUYIwVwxyWTf" type="github"><diagram id="MuSu4GeQlTMajEMma0Ou">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-26T05:56:23.627Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="qdzjaDX_TK78XBNilhcx" version="14.4.8" type="github">
+  <diagram id="MuSu4GeQlTMajEMma0Ou" name="第 1 页">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Agsw_K4F6o7D0YDRF7T9-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="40" width="680" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="Agsw_K4F6o7D0YDRF7T9-2" value="&lt;p style=&quot;margin: 4px 0px 0px ; font-size: 13px&quot;&gt;&lt;i style=&quot;font-size: 13px&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 13px&quot;&gt;&lt;b style=&quot;font-size: 13px&quot;&gt;Map&amp;lt;Key, Value&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 13px&quot;&gt;&lt;p style=&quot;text-align: left ; margin: 0px 0px 0px 4px ; font-size: 13px&quot;&gt;&lt;font color=&quot;#323232&quot;&gt;&lt;span style=&quot;background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;Map 集合以键值对的方式存储元素，键的特点是：无序不可重复的。Map 和 Collection 没有关系。&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=13;fontFamily=Helvetica;html=1;gradientDirection=north;shadow=0;glass=0;sketch=0;perimeterSpacing=0;strokeWidth=2;rounded=1;perimeter=rectanglePerimeter;arcSize=6;fillColor=#FFF2CC;whiteSpace=wrap;" vertex="1" parent="Agsw_K4F6o7D0YDRF7T9-1">
+          <mxGeometry x="231.25" width="200" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="Agsw_K4F6o7D0YDRF7T9-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="Agsw_K4F6o7D0YDRF7T9-1" source="Agsw_K4F6o7D0YDRF7T9-4" target="Agsw_K4F6o7D0YDRF7T9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Agsw_K4F6o7D0YDRF7T9-4" value="&lt;p style=&quot;margin: 4px 0px 0px ; font-size: 13px&quot;&gt;&lt;b style=&quot;font-size: 13px&quot;&gt;HashMap&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 13px&quot;&gt;&lt;p style=&quot;text-align: left ; margin: 0px 0px 0px 4px ; font-size: 13px&quot;&gt;底层是哈希表 / 散列表，HashMap 中的 key 等同于一个 Set 集合。&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=13;fontFamily=Helvetica;html=1;gradientDirection=north;shadow=0;glass=0;sketch=0;perimeterSpacing=0;strokeWidth=2;rounded=1;perimeter=rectanglePerimeter;arcSize=6;fillColor=#FFF2CC;whiteSpace=wrap;" vertex="1" parent="Agsw_K4F6o7D0YDRF7T9-1">
+          <mxGeometry y="220" width="210" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="Agsw_K4F6o7D0YDRF7T9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="Agsw_K4F6o7D0YDRF7T9-1" source="Agsw_K4F6o7D0YDRF7T9-6" target="Agsw_K4F6o7D0YDRF7T9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Agsw_K4F6o7D0YDRF7T9-6" value="&lt;p style=&quot;margin: 4px 0px 0px ; font-size: 13px&quot;&gt;&lt;b&gt;HashTable&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 13px&quot;&gt;&lt;p style=&quot;text-align: left ; margin: 0px 0px 0px 4px ; font-size: 13px&quot;&gt;线程安全，效率低。&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=13;fontFamily=Helvetica;html=1;gradientDirection=north;shadow=0;glass=0;sketch=0;perimeterSpacing=0;strokeWidth=2;rounded=1;perimeter=rectanglePerimeter;arcSize=6;fillColor=#FFF2CC;whiteSpace=wrap;" vertex="1" parent="Agsw_K4F6o7D0YDRF7T9-1">
+          <mxGeometry x="226.25" y="220" width="210" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="Agsw_K4F6o7D0YDRF7T9-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="Agsw_K4F6o7D0YDRF7T9-1" source="Agsw_K4F6o7D0YDRF7T9-8" target="Agsw_K4F6o7D0YDRF7T9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Agsw_K4F6o7D0YDRF7T9-8" value="&lt;p style=&quot;margin: 4px 0px 0px&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;SortedMap&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 13px&quot;&gt;&lt;p style=&quot;text-align: left ; margin: 0px 0px 0px 4px ; font-size: 13px&quot;&gt;SortedMap 中的 key 存储元素的特点：无序不可重复，但是可以按照元素的大小顺序自动排序。SortedMap 中的 key 等同于 SortedSet。&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=13;fontFamily=Helvetica;html=1;gradientDirection=north;shadow=0;glass=0;sketch=0;perimeterSpacing=0;strokeWidth=2;rounded=1;perimeter=rectanglePerimeter;arcSize=6;fillColor=#FFF2CC;whiteSpace=wrap;" vertex="1" parent="Agsw_K4F6o7D0YDRF7T9-1">
+          <mxGeometry x="450" y="220" width="230" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="Agsw_K4F6o7D0YDRF7T9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="Agsw_K4F6o7D0YDRF7T9-1" source="Agsw_K4F6o7D0YDRF7T9-10" target="Agsw_K4F6o7D0YDRF7T9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Agsw_K4F6o7D0YDRF7T9-10" value="&lt;p style=&quot;margin: 4px 0px 0px ; font-size: 13px&quot;&gt;&lt;b&gt;TreeMap&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 13px&quot;&gt;&lt;p style=&quot;text-align: left ; margin: 0px 0px 0px 4px ; font-size: 13px&quot;&gt;TreeMap 的 key 就是一个 TreeSet。元素默认按照 key 的自然顺序排序&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=13;fontFamily=Helvetica;html=1;gradientDirection=north;shadow=0;glass=0;sketch=0;perimeterSpacing=0;strokeWidth=2;rounded=1;perimeter=rectanglePerimeter;arcSize=6;fillColor=#FFF2CC;whiteSpace=wrap;" vertex="1" parent="Agsw_K4F6o7D0YDRF7T9-1">
+          <mxGeometry x="475" y="380" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Agsw_K4F6o7D0YDRF7T9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="Agsw_K4F6o7D0YDRF7T9-1" source="Agsw_K4F6o7D0YDRF7T9-12" target="Agsw_K4F6o7D0YDRF7T9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Agsw_K4F6o7D0YDRF7T9-12" value="&lt;p style=&quot;margin: 4px 0px 0px ; font-size: 13px&quot;&gt;&lt;b&gt;Properties&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 13px&quot;&gt;&lt;p style=&quot;text-align: left ; margin: 0px 0px 0px 4px ; font-size: 13px&quot;&gt;属性类，也是以 key 和 value 的方式存储元素，但 key 和 value 只能是字符串类型。&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=13;fontFamily=Helvetica;html=1;gradientDirection=north;shadow=0;glass=0;sketch=0;perimeterSpacing=0;strokeWidth=2;rounded=1;perimeter=rectanglePerimeter;arcSize=6;fillColor=#FFF2CC;whiteSpace=wrap;" vertex="1" parent="Agsw_K4F6o7D0YDRF7T9-1">
+          <mxGeometry x="241.25" y="380" width="180" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
